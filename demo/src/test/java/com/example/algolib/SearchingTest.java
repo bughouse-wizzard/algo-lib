@@ -6,10 +6,10 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class SearchingTest {
+class SearchingTest {
 
     @Test
-    public void testBinarySearch() {
+     void testBinarySearch() {
         int[] arr = {1, 3, 5, 7, 9, 11};
         assertEquals(2, Searching.binarySearch(arr, 5)); // Элемент найден
         assertEquals(-1, Searching.binarySearch(arr, 4)); // Элемент не найден
@@ -18,7 +18,7 @@ public class SearchingTest {
     }
 
     @Test
-    public void testInterpolationSearch() {
+     void testInterpolationSearch() {
         int[] arr = {10, 20, 30, 40, 50};
         assertEquals(2, Searching.interpolationSearch(arr, 30)); // Элемент найден
         assertEquals(-1, Searching.interpolationSearch(arr, 35)); // Элемент не найден
@@ -27,7 +27,7 @@ public class SearchingTest {
     }
 
     @Test
-    public void testExponentialSearch() {
+     void testExponentialSearch() {
         int[] arr = {1, 3, 5, 7, 9, 11};
         assertEquals(2, Searching.exponentialSearch(arr, 5)); // Элемент найден
         assertEquals(-1, Searching.exponentialSearch(arr, 4)); // Элемент не найден
@@ -36,7 +36,7 @@ public class SearchingTest {
     }
 
     @Test
-    public void testJumpSearch() {
+     void testJumpSearch() {
         int[] arr = {1, 3, 5, 7, 9, 11};
         assertEquals(2, Searching.jumpSearch(arr, 5)); // Элемент найден
         assertEquals(-1, Searching.jumpSearch(arr, 4)); // Элемент не найден
@@ -45,7 +45,7 @@ public class SearchingTest {
     }
 
     @Test
-    public void testKMPSearch() {
+     void testKMPSearch() {
         String text = "ababcabcabababd";
         String pattern = "ababd";
         List<Integer> result = Searching.kmpSearch(text, pattern);
@@ -61,7 +61,7 @@ public class SearchingTest {
     }
 
     @Test
-    public void testBoyerMooreSearch() {
+     void testBoyerMooreSearch() {
         String text = "ababcabcabababd";
         String pattern = "ababd";
         List<Integer> result = Searching.boyerMooreSearch(text, pattern);

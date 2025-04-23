@@ -99,15 +99,6 @@ public interface Searching {
         return -1;
     }
 
-    private static int linearSearch(int[] arr, int start, int target){
-        for (int i = start; i < arr.length; i++){
-            if (arr[i] == target) {
-                return i;
-            }
-        }
-        return -1;
-    }
-
     public static List<Integer> kmpSearch(String text, String pattern){
         List<Integer> result = new ArrayList<>();
         int[] lps = createLPSLIst(pattern);

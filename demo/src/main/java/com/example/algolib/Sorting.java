@@ -1,10 +1,11 @@
 package com.example.algolib;
 
-import java.util.Arrays;
-
 public class Sorting {
     private static final int INSERTION_SORT_THRESHOLD = 10;
 
+    private Sorting() {
+        // Private constructor to prevent instantiation
+    }
     //старая туфта, медленно
     public static void bubbleSort(int[] arr){
         int n = arr.length;
