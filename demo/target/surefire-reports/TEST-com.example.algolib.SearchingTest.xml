@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.algolib.SortingTest" time="0.027" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.algolib.SearchingTest" time="0.006" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -55,14 +55,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testMergeSort" classname="com.example.algolib.SortingTest" time="0.013"/>
-  <testcase name="testEmptyArray" classname="com.example.algolib.SortingTest" time="0"/>
-  <testcase name="testArrayWithDuplicates" classname="com.example.algolib.SortingTest" time="0.001"/>
-  <testcase name="testSelectionSort" classname="com.example.algolib.SortingTest" time="0.001"/>
-  <testcase name="testBubbleSort" classname="com.example.algolib.SortingTest" time="0"/>
-  <testcase name="testReverseSortedArray" classname="com.example.algolib.SortingTest" time="0"/>
-  <testcase name="testAlreadySortedArray" classname="com.example.algolib.SortingTest" time="0"/>
-  <testcase name="testSingleElementArray" classname="com.example.algolib.SortingTest" time="0.001"/>
-  <testcase name="testInsertionSort" classname="com.example.algolib.SortingTest" time="0.001"/>
-  <testcase name="testQuickSort" classname="com.example.algolib.SortingTest" time="0"/>
+  <testcase name="testExponentialSearch" classname="com.example.algolib.SearchingTest" time="0.002"/>
+  <testcase name="testJumpSearch" classname="com.example.algolib.SearchingTest" time="0"/>
+  <testcase name="testInterpolationSearch" classname="com.example.algolib.SearchingTest" time="0.001"/>
+  <testcase name="testBoyerMooreSearch" classname="com.example.algolib.SearchingTest" time="0.001"/>
+  <testcase name="testBinarySearch" classname="com.example.algolib.SearchingTest" time="0.001"/>
+  <testcase name="testKMPSearch" classname="com.example.algolib.SearchingTest" time="0"/>
 </testsuite>

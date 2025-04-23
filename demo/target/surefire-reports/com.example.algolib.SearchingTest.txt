@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.example.algolib.SortingTest
+Test set: com.example.algolib.SearchingTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in com.example.algolib.SortingTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.example.algolib.SearchingTest
